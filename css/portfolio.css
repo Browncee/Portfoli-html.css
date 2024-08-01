@@ -1,0 +1,48 @@
+/* default setting */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+.html{
+  max-width: 1920px;
+  height: 1020px;
+}
+
+/* section1 */
+.section1{
+  max-width: 1920px;
+  min-height: 100vh;
+  background-color:  #D7D7D7;
+  background-image: url(../Images/Rectangle\ 67.svg);
+  background-size: 65dvw 100%; 
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-top: 72px;
+   padding-left: 14VW;
+   padding-right: 15vw;
+}
+
+/* Nav */
+.section1 nav ol{
+display: flex;
+align-items: center;
+justify-content: space-between;
+list-style-type: none;
+}
+.sectio.link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Section1.Links a{
+width: 147px;
+height: 46px;
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 700;
+line-height: 20.72px;
+text-align: center;
+}
